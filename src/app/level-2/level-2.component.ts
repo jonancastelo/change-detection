@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Level3Component } from '../level-3/level-3.component';
 import { CounterService } from '../services/counter.service';
 
@@ -8,6 +8,7 @@ import { CounterService } from '../services/counter.service';
   imports: [Level3Component],
   templateUrl: './level-2.component.html',
   styleUrl: './level-2.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Level2Component {
   private counterService = inject(CounterService);
