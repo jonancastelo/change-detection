@@ -1,5 +1,6 @@
-.level-0-container {
+.level-3-container {
   border: 1px solid black;
+  margin: 5px;
 }
 
 .title {
@@ -17,12 +18,4 @@
   text-align: center;
   border: 1px solid grey;
   margin: 10px;
-}
-
-.level-0 {
-  display: flex;
-}
-
-app-level-1 {
-  flex: 1;
 }

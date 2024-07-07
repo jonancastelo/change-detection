@@ -1,5 +1,6 @@
-.level-0-container {
+.level-1-container {
   border: 1px solid black;
+  margin: 5px;
 }
 
 .title {
@@ -19,10 +20,10 @@
   margin: 10px;
 }
 
-.level-0 {
+.level-1 {
   display: flex;
 }
 
-app-level-1 {
+app-level-2 {
   flex: 1;
 }
