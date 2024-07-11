@@ -19,6 +19,12 @@
   margin: 10px;
 }
 
+.async-variable {
+  text-align: center;
+  border: 1px solid red;
+  margin: 10px;
+}
+
 .level-0 {
   display: flex;
 }
